@@ -1,20 +1,19 @@
 # FSOCIETY_REVERSESHELL
 
-Minimalist simple reverse shell connection testing. 
-Designed for educational purposes 
+Minimalist simple reverse shell designed for educational purposes 
 
-## Disclaimer
+## DISCLAIMER
 
 This tool is for ethical use only. Unauthorized access to computer systems is illegal. 
 The developers assume no liability for misuse.
 
-## options
+## OPTIONS
 
-- notepad > write in the victim notepad
+- notepad >> write in the victim notepad
 - BSOD >> towards the victim
 - download / upload <files> >> download or upload victim files
 
-## Requirements
+## REQUIREMENTS
 
 - Python 3.x
 - Socket library
