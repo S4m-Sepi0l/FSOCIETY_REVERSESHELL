@@ -1,6 +1,6 @@
 # FSOCIETY_REVERSESHELL
 
-        Minimalist simple reverse shell designed for educational purposes 
+Minimalist simple reverse shell designed for educational purposes 
 
  ### OPTIONS
 
