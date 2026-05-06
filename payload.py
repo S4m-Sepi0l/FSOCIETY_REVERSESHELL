@@ -75,7 +75,6 @@ def shell(conn):
                 conn.send(b"[+] Connection terminated by client.\n")
                 break
 
-            # ==================== NUEVAS FUNCIONES ====================
             if command.lower().startswith("download "):
                 filename = command.split(maxsplit=1)[1]
                 handle_download(conn, filename)
