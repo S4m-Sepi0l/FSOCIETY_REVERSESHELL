@@ -12,7 +12,7 @@ Minimalist simple reverse shell designed for educational purposes
 
 - Python 3.x
 - Socket library
- HOW TO USE:
+### HOW TO USE:
 1start the script >> python fs0ciety.py
 
 2. Listen at port 4444
