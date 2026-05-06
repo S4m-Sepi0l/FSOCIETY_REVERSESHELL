@@ -37,7 +37,9 @@ step 5. You should get something like this:
 
 step 6. Okay, now you can run commands!
 
-### Remember to replace this part with the attacker's IP address.
+### Remember to replace this part of the payload.py with the attacker IP address.
+<img width="182" height="34" alt="image" src="https://github.com/user-attachments/assets/d5316c91-e7fb-4134-991c-b59f4f5ff684" />
+
 
 
 ### DISCLAIMER
