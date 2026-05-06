@@ -23,7 +23,7 @@ The developers assume no liability for misuse.
 2. Listen at port 4444
 3. execute the payload on the victim machine
 4. You should get something like this:
-5. <img width="448" height="126" alt="Captura de pantalla 2026-05-06 100354" src="https://github.com/user-attachments/assets/e2919bd8-73dd-4ff5-8e32-419ee0af43bc" />
+5. <img width="448" height="100" alt="Captura de pantalla 2026-05-06 100354" src="https://github.com/user-attachments/assets/e2919bd8-73dd-4ff5-8e32-419ee0af43bc" />
 
 
 ## 
