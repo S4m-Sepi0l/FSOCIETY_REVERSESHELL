@@ -17,6 +17,10 @@ step 1. install script
  ``` bash
  git clone https://github.com/S4m-Sepi0l/FSOCIETY_REVERSESHELL
 ```
+then
+``` bash
+cd FSOCIETY_REVERSESHELL
+```
   
 step 2. start the script
 ```bash
