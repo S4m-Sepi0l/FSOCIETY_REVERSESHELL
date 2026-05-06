@@ -5,7 +5,7 @@ Minimalist simple reverse shell designed for educational purposes
  ### OPTIONS
 
 - notepad >> write in the victim notepad
-- BSOD >> towards the victim
+- BSOD >> causes a BSOD to the victim
 - download / upload <files> >> download or upload victim files
 
  ### REQUIREMENTS
