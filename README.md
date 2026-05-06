@@ -2,18 +2,17 @@
 
 Minimalist simple reverse shell designed for educational purposes 
 
-## OPTIONS
+ OPTIONS
 
 - notepad >> write in the victim notepad
 - BSOD >> towards the victim
 - download / upload <files> >> download or upload victim files
 
-## REQUIREMENTS
+ REQUIREMENTS
 
 - Python 3.x
 - Socket library
-- 
-## HOW TO USE:
+ HOW TO USE:
 1start the script >> python fs0ciety.py
 
 2. Listen at port 4444
@@ -25,12 +24,12 @@ Minimalist simple reverse shell designed for educational purposes
 
 6. Okay, now you can run commands!
 
-## DISCLAIMER
+ DISCLAIMER
 
 This tool is for ethical use only. Unauthorized access to computer systems is illegal. 
 The developers assume no liability for misuse.
    
-## 
+
 
 ---
 "Hello, friend."
