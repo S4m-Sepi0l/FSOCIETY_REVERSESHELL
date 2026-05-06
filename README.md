@@ -10,9 +10,9 @@ The developers assume no liability for misuse.
 
 ## options
 
-- notepad
-- bsod
-- download / upload files
+- notepad write in the victim's notepad
+- BSOD towards the victim
+- download / upload victim files
 
 ## Requirements
 
