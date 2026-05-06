@@ -37,6 +37,9 @@ step 5. You should get something like this:
 
 step 6. Okay, now you can run commands!
 
+### Remember to replace this part with the attacker's IP address.
+
+
 ### DISCLAIMER
 
 This tool is for ethical use only. Unauthorized access to computer systems is illegal. 
